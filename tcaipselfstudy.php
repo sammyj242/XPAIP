@@ -2,7 +2,7 @@ if(is_array($_REQUEST)) {
   	$email=$_REQUEST['email'];  // adjust based on how the info is sent
   	$firstname=$_REQUEST['firstname'];  // adjust based on how the info is sent
   	$lastname=$_REQUEST['lastname']; // adjust based on how the info is sent
-  	$key="api";
+  	$key="api_key";
   	$api_url="https://api.xperiencify.io/api/public/student/create/?api_key=".$key;
 		
   	$ch = curl_init();
